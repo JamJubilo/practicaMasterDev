@@ -11,44 +11,53 @@
     <title>Proyecto MasterDev</title>
 </head>
 <body>
-    <header class="bg-dark">
+    <header class="bg-white">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Enlace</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Acción</a></li>
-                        <li><a class="dropdown-item" href="#">Otra acción</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Algo más aquí</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Deshabilitado</a>
-                    </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
-                </div>
-            </nav>
+            <div class="row">
+              <div class="col-3">
+                <img src="" width="120" alt="logo salem">
+                  <p>Colegio Salem</p> 
+              </div>
+              <div class="col-9">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Enlace</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Acción</a></li>
+                          <li><a class="dropdown-item" href="#">Otra acción</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Algo más aquí</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link disabled">Deshabilitado</a>
+                      </li>
+                      </ul>
+                      <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      </form>
+                  </div>
+                  </div>
+              </nav>
+              </div>
+            </div>
         </div>
     </header>
     <section class="carrusel">
@@ -81,7 +90,7 @@
     </section>
     <section class="nosotros">
       <hr>
-      <h2 class="text-center">Quiénes somos</h2>
+      <h2 class="text-center text-danger">Quiénes somos</h2>
       <div class="container">
         <div class="row">
           <div class="col">
@@ -95,42 +104,72 @@
       </div>
     </section>
     <section class="servicios">
-      <h2 class="text-center">Servicios</h2>
+      <h2 class="text-center my-3 text-danger">Servicios</h2>
       <div class="container">
         <div class="row">
           <div class="col">
             <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="imagenes/boys-286245_1280.jpg" class="card-img-top" alt="niños salón" style="height: 200px;">
   <div class="card-body">
-    <h5 class="card-title">Título de la tarjeta</h5>
+    <h5 class="card-title">Primaria</h5>
     <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-    <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+    <a href="#" class="btn btn-primary"> ver más</a>
   </div>
 </div>    
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="imagenes/library-1147815_640.jpg" class="card-img-top" alt="Biblioteca" style="height: 200px;">
   <div class="card-body">
-    <h5 class="card-title">Título de la tarjeta</h5>
+    <h5 class="card-title">Servicio de Biblioteca</h5>
     <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-    <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+    <a href="#" class="btn btn-primary"> ver más</a>
   </div>
 </div>  
           </div>
           <div class="col">
             <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="imagenes/never-stop-learning-3653430_1280.jpg" class="card-img-top" alt="aprende inglés" style="height:200px;">
   <div class="card-body">
-    <h5 class="card-title">Título de la tarjeta</h5>
+    <h5 class="card-title">Refuerzo de Inglés</h5>
     <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-    <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+    <a href="#" class="btn btn-primary"> ver más</a>
   </div>
 </div>
           </div>
         </div>
       </div>
     </section>
+    <section class="contactanos">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center">
+              Contáctanos
+            </h1>
+          </div>
+          <div class="col">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Verificado</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
     <!-- Footer 1 -->
   <!-- <footer class="bg-dark text-light py-2">
     <div class="container">
